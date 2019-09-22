@@ -1,0 +1,68 @@
+debImport "-f" "file_list.f"
+debLoadSimResult /home/eda/Work/tb_example/verdi_lab1/tb_mem.fsdb
+wvCreateWindow
+verdiDockWidgetDisplay -dock widgetDock_WelcomePage
+verdiWindowWorkMode -win $_Verdi_1 -hardwareDebug
+verdiWindowResize -win $_Verdi_1 "65" "52" "735" "716"
+verdiWindowResize -win $_Verdi_1 "65" "52" "1851" "716"
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {4 8 1 1 1 1}
+verdiWindowResize -win $_Verdi_1 "65" "52" "1851" "718"
+verdiWindowResize -win $_Verdi_1 "65" "52" "1851" "780"
+verdiWindowResize -win $_Verdi_1 "65" "52" "1851" "825"
+verdiWindowResize -win $_Verdi_1 "65" "52" "1851" "826"
+verdiWindowResize -win $_Verdi_1 "65" "52" "1851" "841"
+simSetInteractiveFsdbFile inter.fsdb
+simSetSimMode on
+srcSetPreference -font "Courier 14"
+wvSetDisplayAttr "Signal Pane" -font "Courier 18"
+srcSetPreference -font "Fixed 14"
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {4 7 1 12 1 1}
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "clock" -win $_nTrace1
+srcSelect -win $_nTrace1 -range {4 8 5 1 2 1}
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {4 9 2 1 1 1}
+srcAddSelectedToWave -win $_nTrace1
+wvSelectSignal -win $_nWave2 {( "G1" 1 2 3 4 )} 
+wvZoomAll -win $_nWave2
+wvZoomAll -win $_nWave2
+wvSelectSignal -win $_nWave2 {( "G1" 4 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 3 )} 
+wvDisplayGridCount -win $_nWave2 -off
+wvGetSignalClose -win $_nWave2
+wvReloadFile -win $_nWave2
+wvSelectSignal -win $_nWave2 {( "G1" 1 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 1 )} 
+wvDisplayGridCount -win $_nWave2 -off
+wvGetSignalClose -win $_nWave2
+wvReloadFile -win $_nWave2
+srcDeselectAll -win $_nTrace1
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {31 32 3 1 1 1}
+srcDeselectAll -win $_nTrace1
+wvSelectSignal -win $_nWave2 {( "G1" 3 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 1 )} 
+debExit

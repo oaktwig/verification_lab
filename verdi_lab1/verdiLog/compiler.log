@@ -1,0 +1,10 @@
+*design* DebussyLib (btIdent Verdi3_L-2016.06-1)
+Command arguments:
+    +define+verilog
+    -f file_list.f
+        tb_mem.v
+
+Highest level modules:
+tb_mem
+
+Total	0 error(s),   0 warning(s)

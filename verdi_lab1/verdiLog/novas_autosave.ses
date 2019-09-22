@@ -1,0 +1,70 @@
+@verdi rc file Version 1.0
+[General]
+VerdiVersion = Verdi3_L-2016.06-1
+[KeyNote]
+Line1 = Automatic Backup 0
+[TestBench]
+ConstrViewShow = 0
+InherViewShow = 0
+FSDBMsgShow = 0
+AnnotationShow = 0
+powerDumped = 0
+[Verdi_1]
+workMode = hardwareDebug
+[hb]
+postSimFile = /home/eda/Work/tb_example/verdi_lab1/tb_mem.fsdb
+syncTime = 50
+viewport = 55 0 1851 869 610 342 201 1849
+activeNode = "tb_mem"
+activeScope = "tb_mem"
+activeFile = "tb_mem.v"
+interactiveMode = False
+viewType = Source
+simulatorMode = False
+sourceBeginLine = 0
+baMode = False
+srcLineNum = True
+syncSignal = False
+traceMode = Hierarchical
+showTraceInSchema = True
+paMode = False
+funcMode = False
+traceCrossHier = True
+DnDtraceCrossHierOnly = True
+traceIncTopPort = False
+leadingZero = False
+signalPane = False
+Scope1 = "tb_mem"
+sdfCheckUndef = FALSE
+simFlow = FALSE
+[hb.sourceTab.1]
+scope = tb_mem
+File = /home/eda/Work/tb_example/verdi_lab1/tb_mem.v
+Line = 1
+[imp.design1]
+dbEnum =  oh
+invokeDir = /home/eda/Work/tb_example/verdi_lab1
+design = DebussyLib
+hostCommand = hostCommand -f file_list.f
+[nMemoryManager]
+FsdbFile = /home/eda/Work/tb_example/verdi_lab1/tb_mem.fsdb
+UserActionNum = 0
+nMemWindowNum = 0
+[wave.0]
+viewPort = 0 28 1851 339 100 65
+SessionFile = /home/eda/Work/tb_example/verdi_lab1/verdiLog/novas_autosave.ses.wave.0
+displayGrid = FALSE
+hierarchicalName = FALSE
+snap = TRUE
+displayLeadingZeros = FALSE
+fixDelta = FALSE
+displayCursorMarker = FALSE
+autoUpdate = FALSE
+highlightGlitchs = FALSE
+waveformSync = FALSE
+displayErrors = TRUE
+displayMsgSymbols = TRUE
+showMsgDescriptions = TRUE
+autoFit = FALSE
+displayDeltaY = FALSE
+centerCursor = FALSE

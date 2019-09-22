@@ -1,0 +1,99 @@
+{
+    "CompileStrategy": "fullobj",
+    "MlibObjs": {},
+    "Misc": {
+        "default_output_dir": "csrc",
+        "csrc_abs": "/home/eda/Work/tb_example/verdi_lab1/csrc",
+        "csrc": "csrc",
+        "cwd": "/home/eda/Work/tb_example/verdi_lab1",
+        "daidir": "simv.daidir",
+        "daidir_abs": "/home/eda/Work/tb_example/verdi_lab1/simv.daidir",
+        "archive_dir": "archive.0"
+    },
+    "CurCompileModules": [
+        "...MASTER...",
+        "...MASTER...",
+        "std",
+        "std",
+        "tb_mem",
+        "tb_mem"
+    ],
+    "CompileStatus": "Successful",
+    "PrevCompiledModules": {},
+    "LVLData": [
+        "SIM"
+    ],
+    "stat": {
+        "quadSpeed": 15423.976608187137,
+        "ru_self_cgstart": {
+            "ru_majflt": 0,
+            "ru_minflt": 4957,
+            "ru_utime_sec": 0.043615000000000001,
+            "ru_stime_sec": 0.031719999999999998,
+            "ru_nivcsw": 3,
+            "ru_maxrss_kb": 83176,
+            "ru_nvcsw": 23
+        },
+        "mop/quad": 1.9597156398104265,
+        "ru_childs_cgstart": {
+            "ru_majflt": 0,
+            "ru_minflt": 0,
+            "ru_utime_sec": 0.0,
+            "ru_stime_sec": 0.0,
+            "ru_nivcsw": 0,
+            "ru_maxrss_kb": 0,
+            "ru_nvcsw": 0
+        },
+        "ru_childs_end": {
+            "ru_majflt": 0,
+            "ru_minflt": 0,
+            "ru_utime_sec": 0.0,
+            "ru_stime_sec": 0.0,
+            "ru_nivcsw": 0,
+            "ru_maxrss_kb": 0,
+            "ru_nvcsw": 0
+        },
+        "nMops": 827,
+        "nQuads": 422,
+        "totalObjSize": 157061,
+        "ru_self_end": {
+            "ru_majflt": 1,
+            "ru_minflt": 6505,
+            "ru_utime_sec": 0.070974999999999996,
+            "ru_stime_sec": 0.035486999999999998,
+            "ru_nivcsw": 3,
+            "ru_maxrss_kb": 91696,
+            "ru_nvcsw": 24
+        },
+        "mopSpeed": 30226.608187134509,
+        "CodeGen(%)": 38.54878478337443,
+        "outputSizePerQuad": 372.0,
+        "Frontend(%)": 61.451215216625577
+    },
+    "NameTable": {
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "tb_mem": [
+            "tb_mem",
+            "zJjHe",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ]
+    },
+    "CurCompileUdps": {},
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 101532
+    },
+    "PEModules": [],
+    "CompileProcesses": [
+        "cgproc.13532.json"
+    ]
+}

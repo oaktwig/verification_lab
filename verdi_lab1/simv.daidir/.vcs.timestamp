@@ -1,0 +1,131 @@
+0 
+33
++cli+1
++itf+/usr/synopsys/vcs_2016/linux64/lib/vcsdp.tab
++memcbk
++v2k
++vcsd
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/usr/synopsys/vcs_2016/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /usr/synopsys/vcs_2016/linux64/lib/libvirsim.so /usr/synopsys/vcs_2016/linux64/lib/liberrorinf.so /usr/synopsys/vcs_2016/linux64/lib/libsnpsmalloc.so /usr/synopsys/verdi_2016/share/PLI/VCS/LINUX64/pli.a
+-Mout=simv
+-Msaverestoreobj=/usr/synopsys/vcs_2016/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=-ldl -lm
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/usr/synopsys/vcs_2016/include
+-P
+-Xcbug=0x1
+-Xpiyushb1=0x80
+-debug=1
+-f file_list.f
+-gen_obj
+-picarchive
+-sverilog
+-timescale=1ns/1ns
+/usr/synopsys/vcs_2016/linux64/bin/vcs1
+/usr/synopsys/verdi_2016/share/PLI/VCS/LINUX64/novas.tab
+82
+sysc_uni_pwd=/home/eda/Work/tb_example/verdi_lab1
+XMODIFIERS=@im=ibus
+XDG_VTNR=7
+XDG_SESSION_TYPE=x11
+XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+XDG_SESSION_ID=c1
+XDG_SESSION_DESKTOP=ubuntu
+XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+XDG_SEAT=seat0
+XDG_RUNTIME_DIR=/run/user/1000
+XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/eda
+XDG_DATA_DIRS=/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+XDG_CURRENT_DESKTOP=Unity
+XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg
+XAUTHORITY=/home/eda/.Xauthority
+VTE_VERSION=4205
+VMR_MODE_FLAG=32
+VERDI_HOME=/usr/synopsys/verdi_2016
+VCS_TARGET_ARCH=amd64
+VCS_MX_HOME_INTERNAL=1
+VCS_HOME=/usr/synopsys/vcs_2016
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH_OVERRIDE=linux
+VCS_ARCH=linux64
+UVM_HOME=/usr/synopsys/uvm-1.2
+UPSTART_SESSION=unix:abstract=/com/ubuntu/upstart-session/1000/1302
+UPSTART_JOB=unity-settings-daemon
+UPSTART_INSTANCE=
+UPSTART_EVENTS=started starting
+UNAME=/bin/uname
+TOOL_HOME=/usr/synopsys/vcs_2016/linux64
+SYNOPSYS=/usr/synopsys
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+SESSIONTYPE=gnome-session
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+SCL_HOME=/usr/synopsys/scl_2016
+QT_QPA_PLATFORMTHEME=appmenu-qt5
+QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1
+QT_IM_MODULE=ibus
+QT_ACCESSIBILITY=1
+QT4_IM_MODULE=xim
+OVA_UUM=0
+NOVAS_HOME=/usr/synopsys/verdi_2016
+MFLAGS=
+MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path
+MAKE_TERMOUT=/dev/pts/6
+MAKE_TERMERR=/dev/pts/6
+MAKELEVEL=1
+MAKEFLAGS=
+LESSOPEN=| /usr/bin/lesspipe %s
+LESSCLOSE=/usr/bin/lesspipe %s %s
+LC_TIME=zh_CN.UTF-8
+LC_TELEPHONE=zh_CN.UTF-8
+LC_PAPER=zh_CN.UTF-8
+LC_NUMERIC=zh_CN.UTF-8
+LC_NAME=zh_CN.UTF-8
+LC_MONETARY=zh_CN.UTF-8
+LC_MEASUREMENT=zh_CN.UTF-8
+LC_IDENTIFICATION=zh_CN.UTF-8
+LC_ALL=C
+LC_ADDRESS=zh_CN.UTF-8
+JOB=gnome-session
+INSTANCE=Unity
+IM_CONFIG_PHASE=1
+GTK_MODULES=gail:atk-bridge:unity-gtk-module
+GTK_IM_MODULE=ibus
+GTK2_MODULES=overlay-scrollbar
+GPG_AGENT_INFO=/home/eda/.gnupg/S.gpg-agent:0:1
+GNOME_KEYRING_PID=
+GNOME_KEYRING_CONTROL=
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GDM_LANG=en_US
+GDMSESSION=ubuntu
+FSDB_HOME=/usr/synopsys/verdi_2016
+DVE_HOME=/usr/synopsys/vcs_2016/gui/dve
+DESKTOP_SESSION=ubuntu
+DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-P7sBnK7x1L
+COMPIZ_CONFIG_PROFILE=ubuntu
+CLUTTER_IM_MODULE=xim
+0
+4
+1569156019 tb_mem.v
+1569155202 file_list.f
+1464145466 /usr/synopsys/vcs_2016/linux64/lib/vcsdp.tab
+1468145700 /usr/synopsys/verdi_2016/share/PLI/VCS/LINUX64/novas.tab
+5
+0 
+1464147802 /usr/synopsys/vcs_2016/linux64/lib/libvirsim.so
+1464147272 /usr/synopsys/vcs_2016/linux64/lib/liberrorinf.so
+1464147248 /usr/synopsys/vcs_2016/linux64/lib/libsnpsmalloc.so
+1468144468 /usr/synopsys/verdi_2016/share/PLI/VCS/LINUX64/pli.a
+1569156031 simv.daidir
